@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C52714C1D5165D61425D1816E8D6E3E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6DDDCBB3E4A7C671DC4F0810699C2 /* ReplaceMe.swift */; };
+		2238FFA91FC3D8990026B7F3 /* KeyboardManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2238FFA81FC3D8990026B7F3 /* KeyboardManagement.swift */; };
 		5947F19E3EB8E8A169EF423041F04903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		784D4425B3FFC0C252784CBFAC8D264E /* Pods-iOSAppToolBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AB6C94BBF72CE7D77A57D4A036FDE9 /* Pods-iOSAppToolBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A667B00D112CA4AA4FC84CA33A4EC88 /* iOSAppToolBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A77503195429FE192551D5222775E0 /* iOSAppToolBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,15 +32,15 @@
 /* Begin PBXFileReference section */
 		03EF301E4EF4E750C8C5ADD9E22CDAA1 /* Pods-iOSAppToolBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSAppToolBox_Tests-umbrella.h"; sourceTree = "<group>"; };
 		14FA34330CC1E4617ADDC98B0DD20E3E /* iOSAppToolBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSAppToolBox.xcconfig; sourceTree = "<group>"; };
-		27A7FFD459913B3F5DC5EA9437258E29 /* Pods_iOSAppToolBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSAppToolBox_Example.framework; path = "Pods-iOSAppToolBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2238FFA81FC3D8990026B7F3 /* KeyboardManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManagement.swift; sourceTree = "<group>"; };
+		27A7FFD459913B3F5DC5EA9437258E29 /* Pods_iOSAppToolBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAppToolBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB27F3D412B206C381508B2669ECAF2 /* Pods-iOSAppToolBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSAppToolBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2CF7FF39551F40EB3B3BFCB260CFB4CD /* Pods-iOSAppToolBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSAppToolBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		52484BE29BD4D7E2F6DAA22877A78669 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55A77503195429FE192551D5222775E0 /* iOSAppToolBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSAppToolBox-umbrella.h"; sourceTree = "<group>"; };
-		58FF9A91F221EDA9D9F9B0E1BAE9FDE8 /* iOSAppToolBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSAppToolBox.framework; path = iOSAppToolBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BB6DDDCBB3E4A7C671DC4F0810699C2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iOSAppToolBox/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		58FF9A91F221EDA9D9F9B0E1BAE9FDE8 /* iOSAppToolBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSAppToolBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CADF76EEE8AF388A9FE86BFB287D631 /* Pods-iOSAppToolBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSAppToolBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D5F5657C00E914764E99DF08D554D04 /* Pods-iOSAppToolBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOSAppToolBox_Example.modulemap"; sourceTree = "<group>"; };
+		5D5F5657C00E914764E99DF08D554D04 /* Pods-iOSAppToolBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSAppToolBox_Example.modulemap"; sourceTree = "<group>"; };
 		65988E4093D8DE1BD0E2E3DB9DDB2704 /* Pods-iOSAppToolBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSAppToolBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6BEFB70501E709327DE0503769263131 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,17 +49,17 @@
 		7F3F876A4FB9504BDC4D69D64479CB0B /* Pods-iOSAppToolBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSAppToolBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		837E3C949BF3AC273C2E2E7DDF9F5244 /* Pods-iOSAppToolBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSAppToolBox_Tests-resources.sh"; sourceTree = "<group>"; };
 		8535C3D1D545492A08B77C99F5E821E1 /* Pods-iOSAppToolBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSAppToolBox_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6903D01F5FD22DA311FAA4D0A1B6EC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A746AAF865C7B0DAC1A3DEA657C35156 /* Pods-iOSAppToolBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSAppToolBox_Tests-dummy.m"; sourceTree = "<group>"; };
 		ABE2A63D3B481B68DD542F36CD856B02 /* Pods-iOSAppToolBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSAppToolBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3CA1C2328481EF1DEE77B58A975C611 /* iOSAppToolBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iOSAppToolBox.modulemap; sourceTree = "<group>"; };
-		B411B71343323A6434921A51FA1185BC /* Pods-iOSAppToolBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOSAppToolBox_Tests.modulemap"; sourceTree = "<group>"; };
+		B3CA1C2328481EF1DEE77B58A975C611 /* iOSAppToolBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iOSAppToolBox.modulemap; sourceTree = "<group>"; };
+		B411B71343323A6434921A51FA1185BC /* Pods-iOSAppToolBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSAppToolBox_Tests.modulemap"; sourceTree = "<group>"; };
 		DD4CEC772626717C2524925291B5DBF4 /* Pods-iOSAppToolBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSAppToolBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E0FCA68AF2931D0F5B33BC14E92689A0 /* Pods-iOSAppToolBox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSAppToolBox_Example-resources.sh"; sourceTree = "<group>"; };
 		E4913FA16D0FB01326E435F52844F133 /* Pods-iOSAppToolBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSAppToolBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5AB6C94BBF72CE7D77A57D4A036FDE9 /* Pods-iOSAppToolBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSAppToolBox_Example-umbrella.h"; sourceTree = "<group>"; };
-		ECC96714B875C1B57A464203150172CD /* Pods_iOSAppToolBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSAppToolBox_Tests.framework; path = "Pods-iOSAppToolBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC96714B875C1B57A464203150172CD /* Pods_iOSAppToolBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAppToolBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F152F3BACFEF226D9BBD3DF367A20927 /* Pods-iOSAppToolBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSAppToolBox_Example-dummy.m"; sourceTree = "<group>"; };
 		FDA706818D186B9EE362A223BE1C9699 /* iOSAppToolBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSAppToolBox-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,7 +161,7 @@
 		9B50E00B91C9A685B186A5EF19FD439A /* iOSAppToolBox */ = {
 			isa = PBXGroup;
 			children = (
-				5BB6DDDCBB3E4A7C671DC4F0810699C2 /* ReplaceMe.swift */,
+				2238FFA81FC3D8990026B7F3 /* KeyboardManagement.swift */,
 				BDA27FD2B1F10627687CED69EBC07865 /* Support Files */,
 			);
 			name = iOSAppToolBox;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					3D2BE1501823BD074FEA1C77C9BF1504 = {
+						LastSwiftMigration = 0910;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4AE2E0EFAF2B0403504137AD74CA59E /* iOSAppToolBox-dummy.m in Sources */,
-				0C52714C1D5165D61425D1816E8D6E3E /* ReplaceMe.swift in Sources */,
+				2238FFA91FC3D8990026B7F3 /* KeyboardManagement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14FA34330CC1E4617ADDC98B0DD20E3E /* iOSAppToolBox.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -637,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14FA34330CC1E4617ADDC98B0DD20E3E /* iOSAppToolBox.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
