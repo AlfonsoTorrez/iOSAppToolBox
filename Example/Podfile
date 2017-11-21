@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSAppToolBox_Example' do
+  pod 'iOSAppToolBox', :path => '../'
+
+  target 'iOSAppToolBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
