@@ -1,0 +1,22 @@
+{
+  "name": "iOSAppToolBox",
+  "version": "0.1.0",
+  "summary": "A short description of iOSAppToolBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AlfonsoTorrez/iOSAppToolBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlfonsoTorrez": "alftorres@csumb.edu"
+  },
+  "source": {
+    "git": "https://github.com/AlfonsoTorrez/iOSAppToolBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSAppToolBox/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - iOSAppToolBox (0.1.0)
+
+DEPENDENCIES:
+  - iOSAppToolBox (from `../`)
+
+EXTERNAL SOURCES:
+  iOSAppToolBox:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iOSAppToolBox: 2e055a49550770d28ce770e06936669713cbb964
+
+PODFILE CHECKSUM: a77d4f28d894d160312c19cc00e5c0bd6b1a8c49
+
+COCOAPODS: 1.3.1
